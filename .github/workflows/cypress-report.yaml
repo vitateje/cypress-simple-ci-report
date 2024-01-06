@@ -49,9 +49,9 @@
 
   name: Cypress run
   on:
-  push:
-    branches:
-      - 'master'
+    push:
+      ranches:
+        - 'master'
   uses: cypress-io/github-action@v6
   with:
     build: npm run build
